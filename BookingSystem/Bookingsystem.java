@@ -27,16 +27,16 @@ public class Bookingsystem extends javax.swing.JFrame {
     int row, column;
     int rowH, columnH;
     int rowR, columnR;
-    private static int numOfBookings = 0;
-    private static int numOfRoom = 0;
-    private static int numOfHall = 0;
+    private int numOfBookings = 0;
+    private int numOfRoom = 0;
+    private int numOfHall = 0;
 
-    final static BookingList bookinglist = new BookingList(50); // array set to 50 maximum
-    final static HallList hallslist = new HallList(50);
-    final static TutorialRoomList tutorialroomlist = new TutorialRoomList(50);
+    BookingList bookinglist = new BookingList(50); // array set to 50 maximum
+    HallList hallslist = new HallList(50);
+    TutorialRoomList tutorialroomlist = new TutorialRoomList(50);
     SimpleDateFormat dFormat = new SimpleDateFormat("dd-MM-yyyy");
     SimpleDateFormat tFormat = new SimpleDateFormat("HH:mm");
-    private static final DecimalFormat df = new DecimalFormat("0.00");
+    private final DecimalFormat df = new DecimalFormat("0.00");
 
     final DefaultComboBoxModel CASHallModel = new DefaultComboBoxModel(new String[]{"DKG 4/1", "DKG 4/2", "DKG 4/3", "DKG 5/1", "DKG 5/2", "DKG 5/3"});
     final DefaultComboBoxModel COBHallModel = new DefaultComboBoxModel(new String[]{"DKG 1/1", "DKG 1/2", "DKG 1/3", "DKG 2/1", "DKG 2/2", "DKG 2/3", "DKG 3/1", "DKG 3/2", "DKG 3/3"});
