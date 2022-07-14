@@ -10,8 +10,8 @@ package BookingSystem;
  */
 public class HallList {
 
-    private static Hall[] hallslist;
-    private static int count;
+    private Hall[] hallslist;
+    private int count;
 
     public HallList(int n) {
         hallslist = new Hall[n];
