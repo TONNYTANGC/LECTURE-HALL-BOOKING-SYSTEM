@@ -10,8 +10,8 @@ package BookingSystem;
  */
 public class TutorialRoomList {
 
-    private static TutorialRoom[] tutorialroomlist;
-    private static int count;
+    private TutorialRoom[] tutorialroomlist;
+    private int count;
 
     public TutorialRoomList(int n) {
         tutorialroomlist = new TutorialRoom[n];
