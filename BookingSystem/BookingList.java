@@ -12,8 +12,8 @@ import java.util.Arrays;
  */
 public class BookingList {
 
-    private static Booking[] bookinglist;
-    private static int count;
+    private Booking[] bookinglist;
+    private int count;
 
     public BookingList(int n) {
         bookinglist = new Booking[n];
